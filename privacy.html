@@ -16,7 +16,12 @@
 <p>AF YouTube Uploader ("the app") is a private tool used by its owner to upload videos to YouTube channels they own. This policy explains what information the app uses and how.</p>
 
 <h2>Information the app accesses</h2>
-<p>When a channel owner signs in with Google and clicks "Allow," the app receives permission to upload videos to that YouTube channel (the <code>youtube.upload</code> scope). The app uses this permission only to upload videos and set their titles, descriptions, tags, thumbnails and privacy settings.</p>
+<p>When a channel owner signs in with Google and clicks "Allow," the app receives two permissions for that YouTube channel:</p>
+<ul>
+  <li><code>youtube.upload</code>: to upload videos and set their titles, descriptions, tags, thumbnails, schedule and privacy settings.</li>
+  <li><code>youtube</code>: to add the uploaded videos to the channel's own playlists, and to read the channel's name and ID so the app can confirm the right channel is connected.</li>
+</ul>
+<p>The app uses these permissions only for those tasks. It does not read, change or delete other videos, comments, subscribers or account details.</p>
 
 <h2>How information is stored</h2>
 <p>The sign-in access token is stored only on the owner's own computer. The app does not run a server, does not keep a database of users, and does not collect analytics, cookies or personal information.</p>
